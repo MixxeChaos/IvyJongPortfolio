@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ivy Jong Zi Eng - Multimedia Computing Student Portfolio">
+    <title>Ivy Jong | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="images/HeadLogo.png" type="images/png">
+</head>
+<body>
+    <!-- Background Canvas -->
+    <canvas id="bgCanvas"></canvas>
+   
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo, if have -->
+            <a href="#home" class="nav-logo">
+                <img src="images/IvyLogo.png" alt="Ivy Logo" class="logo-img">
+                <span>PORTFOLIO</span>
+            </a>
+
+
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- Hero Text -->
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hello, I'm</span>
+                    <span class="name">Ivy Jong Zi Eng</span>
+                </h1>
+                <p class="hero-subtitle">Multimedia Computing Student</p>
+
+                <!-- Hero Buttons -->
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="ResumeIvy.pdf" download class="btn btn-secondary" id="downloadBtn">
+                        <span class="download-icon">↓</span> Download Resume
+                    </a>
+                </div>
+            </div>
+            <!-- Resume Card -->
+            <div class="resume-card">
+                <div class="resume-avatar"></div>
+                <div class="resume-card-header">Personal Profile</div>
+                <div class="resume-card-body">
+                    <p class="resume-card-desc">
+                        A passionate cat lover who is also enthusiastic about game development and interactive systems.
+                    </p>
+
+                <hr style="border: none; border-top: 1.5px dashed #f0f0f0; "> <br>
+        
+                <div class="resume-card-edu">
+                    <div class="edu-item">
+                        <span class="edu-key">Education</span>
+                        <span class="edu-value">UNIMAS</span>
+                    </div>
+                    <div class="edu-item">
+                        <span class="edu-key">Field of Study</span>
+                        <span class="edu-value">Multimedia Computing</span>
+                    </div>
+                    <div class="edu-item">
+                        <span class="edu-key">Location</span>
+                        <span class="edu-value">Kuching, Sarawak</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Scroll Indicator -->
+        <a href="#about" class="scroll-indicator" aria-label="Scroll to about section">
+            <span class="scroll-arrow"></span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hi! I'm Ivy, a multimedia computing student at the University of Malaysia Sarawak (UNIMAS). I'm passionate about game development and interactive systems while continuously expanding my skills in both programming and multimedia design.</p>
+                    
+                    <p>I enjoy learning programming languages like C, C++, Java/Kotlin, and Python. Besides that, I'm currently exploring tools such as Unity and Godot as I expand my interest in game development. I also have experience in web technologies such as HTML, CSS, JavaScript, PHP, and Bootstrap, which I practised both in class and during my internship.</p>
+                    
+                    <p>Additionally, I love discovering how games or systems work, solving problems, and learning new technologies that help me combine creativity with software development.</p>
+                </div>
+
+                <!-- Skills Section -->
+                <div class="skills-container">
+                    <div class="skills-box">
+                        <h3>Technical Skills</h3>
+                        <div class="skill-category">
+                            <h4>Programming Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">C</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Kotlin</span>
+                                <span class="skill-tag">OpenGL</span>
+                                <span class="skill-tag">SQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Web & Mobile Development</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">PHP</span>
+                                <span class="skill-tag">Firebase</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <h4>Tools & Software</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">Unity</span>
+                                <span class="skill-tag">Godot</span>
+                                <span class="skill-tag">VS Code</span>
+                                <span class="skill-tag">MySQL</span>
+                                <span class="skill-tag">Android Studio</span>
+                                <span class="skill-tag">Photoshop</span>
+                                <span class="skill-tag">Premiere Pro</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-box">
+                        <h3>Soft Skills</h3>
+                        <ul class="soft-skills-list">
+                            <li>Adaptability to new technologies</li>
+                            <li>Works well in teamwork</li>
+                            <li>Attention to details</li>
+                            <li>Effective communication</li>
+                            <li>Critical thinking</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <!-- Project Filter Buttons -->
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="game">Game</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card" data-category="web mobile">
+                    <!-- Each project card includes image, overlay, info, and tech stack -->
+                    <div class="project-image">
+                        <img src="images/PKS.png" alt="PKS Visitor Management System interface" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn-view" data-project="1">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>PKS Visitor Management System</h3>
+                        <p>A dual-platform system for managing visitor appointments at Politeknik Kuching Sarawak with automated email notifications.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>Java</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="images/CarRental.png" alt="ZoomRental Car Rental System dashboard" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn-view" data-project="2">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ZoomRental Car Rental System</h3>
+                        <p>A comprehensive web application for managing car rental operations including bookings, customer records, and vehicle inventory.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>MySQL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="images/java.jpg" alt="Environmental Awareness Application interface" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn-view" data-project="3">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Environmental Awareness Application</h3>
+                        <p>A Java-based desktop application with GUI featuring educational content, quizzes, and gamification to promote environmental awareness.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>OOP</span>
+                            <span>GUI</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card" data-category="game">
+                    <div class="project-image">
+                        <img src="images/CG.png" alt="Computer Graphics 2D Game screenshot" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn-view" data-project="4">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>2D Environmental Conservation Game</h3>
+                        <p>A retro-styled 2D video game inspired by 1970s-80s visuals, focused on environmental conservation themes using OpenGL.</p>
+                        <div class="project-tech">
+                            <span>C++</span>
+                            <span>OpenGL</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="images/art.png" alt="ART App Figma prototype screens" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn-view" data-project="5">View Details</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ART Mobile App Prototype</h3>
+                        <p>A comprehensive Figma prototype for Autonomous Rapid Transit app including user research, personas, and usability testing with map navigation features.</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>UI/UX</span>
+                            <span>Human & Computer Interaction</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">✉</span>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:Ivyjong917@gmail.com">Ivyjong917@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">☎</span>
+                            <div>
+                                <h4>Phone</h4>
+                                <a href="tel:+601110535221">+60 11-1053 5221</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🔗</span>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://linkedin.com/in/ivy-jong-zi-eng-6886aa29a" target="_blank" rel="noopener noreferrer">linkedin.com/in/ivy-jong-zi-eng</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required aria-required="true">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required aria-required="true"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                    <p class="form-status" id="formStatus"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ivy Jong Zi Eng. All rights reserved.</p>
+            <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div class="modal" id="projectModal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+            <div class="modal-body" id="modalBody">
+                <!-- Project details will be inserted at here via JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
