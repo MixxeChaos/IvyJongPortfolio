@@ -28,16 +28,19 @@ const projectsData = {
         ]
     },
     3: {
-        title: "Environmental Awareness Application",
-        description: "An object-oriented Java desktop application focused on raising awareness. The application includes educational content, quizzes, and gamification elements to encourage learning and engagement. The application features a Graphical User Interface (GUI) designed to fit within a smartphone display resolution but is intended to be run on a desktop.",
-        tech: ["Java", "Java Swing/AWT", "Object-Oriented Programming"],
+        title: "ART Mobile App Prototype",
+        description: "A comprehensive UX/UI project for an Autonomous Rapid Transit (ART) mobile application. The project involved conducting user interviews with the Kuching/Samarahan community, creating affinity diagrams from the findings, developing detailed user personas, and designing a high-fidelity Figma prototype. The app features an intelligent map module that highlights ART stations and nearby points of interest including tourist attractions, schools, malls, and religious sites. Includes smart route suggestions and accessibility features for visually impaired users.",
+        tech: ["Figma", "UI/UX Design", "Human & Computer Interaction", "User Research", "Prototyping"],
         features: [
-            "Educational content modules",
-            "Interactive quiz system",
-            "Gamification elements for engagement",
-            "Smartphone-style GUI",
-            "Score tracking and progress monitoring",
-            "User-friendly navigation"
+            "User interview and research methodology",
+            "Affinity diagram analysis",
+            "User persona development",
+            "Interactive map with ART stations",
+            "Points of interest integration",
+            "Intelligent route planning",
+            "Location search functionality",
+            "Accessibility features for visually impaired",
+            "Think-aloud usability testing"
         ]
     },
     4: {
@@ -54,19 +57,16 @@ const projectsData = {
         ]
     },
     5: {
-        title: "ART Mobile App Prototype",
-        description: "A comprehensive UX/UI project for an Autonomous Rapid Transit (ART) mobile application. The project involved conducting user interviews with the Kuching/Samarahan community, creating affinity diagrams from the findings, developing detailed user personas, and designing a high-fidelity Figma prototype. The app features an intelligent map module that highlights ART stations and nearby points of interest including tourist attractions, schools, malls, and religious sites. Includes smart route suggestions and accessibility features for visually impaired users.",
-        tech: ["Figma", "UI/UX Design", "Human & Computer Interaction", "User Research", "Prototyping"],
+        title: "Environmental Awareness Application",
+        description: "An object-oriented Java desktop application focused on raising awareness. The application includes educational content, quizzes, and gamification elements to encourage learning and engagement. The application features a Graphical User Interface (GUI) designed to fit within a smartphone display resolution but is intended to be run on a desktop.",
+        tech: ["Java", "Java Swing/AWT", "Object-Oriented Programming"],
         features: [
-            "User interview and research methodology",
-            "Affinity diagram analysis",
-            "User persona development",
-            "Interactive map with ART stations",
-            "Points of interest integration",
-            "Intelligent route planning",
-            "Location search functionality",
-            "Accessibility features for visually impaired",
-            "Think-aloud usability testing"
+            "Educational content modules",
+            "Interactive quiz system",
+            "Gamification elements for engagement",
+            "Smartphone-style GUI",
+            "Score tracking and progress monitoring",
+            "User-friendly navigation"
         ]
     }
 };
