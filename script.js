@@ -338,7 +338,7 @@ document.querySelectorAll('.project-card, .skills-box, .edu-item').forEach(el =>
 const footerYear = document.querySelector('.footer p');
 if (footerYear) {
     const currentYear = new Date().getFullYear();
-    footerYear.innerHTML = `&copy; ${currentYear} Ivy Jong Zi Eng. All rights reserved.`;
+    footerYear.innerHTML = `&copy; ${currentYear} Thian Shing Hui. All rights reserved.`;
 }
 
 // Keyboard Navigation Enhancement (JavaSFeature)
